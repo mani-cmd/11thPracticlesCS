@@ -1,3 +1,44 @@
+Question:
+
+### Write a C++ program to input basic salary of an employee and Calculate it's Gross salary according to following
+
+<table>
+<tr>
+<th>Percentage</th>
+<th>Division</th>
+</tr>
+
+<tr>
+<td> >= 80</td>
+<td>Distinction</td>
+</tr>
+
+<tr>
+<td> >= 60 and < 80 </td>
+<td>First Division</td>
+</tr>
+
+<tr>
+<td> >= 50 and < 60 </td>
+<td>Second Division</td>
+</tr>
+
+<tr>
+<td> >= 40 and < 50 </td>
+<td>Third Division</td>
+</tr>
+
+<tr>
+<td> < 40 </td>
+<td>Fail</td>
+</tr>
+</tr>
+
+</table>
+
+### Solution
+
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -7,7 +48,7 @@ int main()
 
     cout << "Enter your percentage : ";
     cin >> percent;
-    cout << "You Have scored - " << percent << " %" << endl;
+    cout << "You Have scored" << percent << " %" << endl;
 
     x = percent / 10;
     switch (x)
@@ -32,3 +73,8 @@ int main()
         break;
     }
 }
+```
+
+### Output
+
+<img src='./out[ut.png'></img>
