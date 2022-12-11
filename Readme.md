@@ -6,34 +6,34 @@
 
 <ol>
 <li>
-<a href='./GrossSalary'>Gross Salary</a>
+<a href='./code/GrossSalary'>Gross Salary</a>
 </li>
 <li>
-<a href='./Percentage'>Percentage</a>
+<a href='./code/Percentage'>Percentage</a>
 </li>
 <li>
-<a href='./Palindrome'>Palindrome</a>
+<a href='./code/Palindrome'>Palindrome</a>
 </li>
 <li>
-<a href='./Number-Conversion'>Number Conversion</a>
+<a href='./code/Number-Conversion'>Number Conversion</a>
 </li>
 <li>
-<a href='./Fibonacci-PrimeSeries'>Fibonacci Prime Series</a>
+<a href='./code/Fibonacci-PrimeSeries'>Fibonacci Prime Series</a>
 </li>
 <li>
-<a href='./Insert-Delete-Elements-in-An-Array'>Insert/Delete elements in an array</a>
+<a href='./code/Insert-Delete-Elements-in-An-Array'>Insert/Delete elements in an array</a>
 </li>
 <li>
-<a href='./Boundary-element-of-a-matrix'>Boundary element of a matrix</a>
+<a href='./code/Boundary-element-of-a-matrix'>Boundary element of a matrix</a>
 </li>
 <li>
-<a href='./ABC-Publishers'>ABC Publishers</a>
+<a href='./code/ABC-Publishers'>ABC Publishers</a>
 </li>
 <li>
-<a href='./Employee-Details'>Employee Details using class</a>
+<a href='./code/Employee-Details'>Employee Details using class</a>
 </li>
 <li>
-<a href='./Student-Details'>Student Details</a>
+<a href='./code/Student-Details'>Student Details</a>
 </li>
 </ol>
 
