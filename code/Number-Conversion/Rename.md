@@ -1,41 +1,85 @@
 Question:
 
-### Write a C++ program to input basic salary of an employee and Calculate it's Gross salary according to following
+### Using do while loop create the following menu based C++ program.
 
 <table>
 <tr>
-<td>Basic Salary < 25000 : </td>
-<td>HRA = 20%</td>
-<td>DA = 80%</td>
-
-</tr>
-<tr>
-<td>Basic Salary >= 25000 : </td>
-<td>HRA = 25%</td>
-<td>DA = 90%</td>
+<td>1.</td>
+<td>Convert a Decimal to Binary number</td>
 </tr>
 
 <tr>
-<td>Basic Salary >= 40000 : </td>
-<td>HRA = 30%</td>
-<td>DA = 95%</td>
+<td>2.</td>
+<td>Convert a Binary to Decimal number</td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>Exit</td>
 </tr>
 
 </table>
+
+> Depending on the choice accept the value and display the result. The program should continue till tha userselect the third option
+
+<hr>
 
 ### Solution
 
 ```cpp
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
-
-
+    int dec, d, i, temp, ch;
+    long int bin;
+    do
+    {
+        dec = bin = d = i = 0;
+        cout << "\n\n----------Menu---------- \n1. Decimal to Binary number\n2.Binary to Decimal number\n3.Exit\n ";
+        cout << "Enter your choice(1 / 2 / 3) : ";
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+            cout << "Enter a decimal number:";
+            cin >> dec;
+            temp = dec;
+            while (dec != 0)
+            {
+                d = dec % 2;
+                bin += d * pow(10, i);
+                dec /= 2;
+                i++;
+            }
+            cout << temp << "in decimal = " << bin << " in binary" << endl;
+            break;
+        case 2:
+            cout << "Enter a binary number: ";
+            cin >> bin;
+            temp = bin;
+            while (bin != 0)
+            {
+                d = bin % 2;
+                dec += d * pow(2, i);
+                bin /= 10;
+                i++;
+            }
+            cout << temp << " in binary = " << dec << " in decimal";
+            break;
+        case 3:
+            break;
+        default:
+            cout << "Invalid choice";
+        }
+    } while (ch != 3);
+    return 0;
 }
-
 ```
+
+<hr>
 
 ### Output
 
-<img src='./OutPut.JPG'></img>
+<img src='./output.png'></img>

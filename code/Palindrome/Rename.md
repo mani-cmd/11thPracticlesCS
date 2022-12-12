@@ -1,27 +1,8 @@
 Question:
 
-### Write a C++ program to input basic salary of an employee and Calculate it's Gross salary according to following
+### Write a C++ program to enter any number and check whether the number is palindrome or not using while loop.
 
-<table>
-<tr>
-<td>Basic Salary < 25000 : </td>
-<td>HRA = 20%</td>
-<td>DA = 80%</td>
-
-</tr>
-<tr>
-<td>Basic Salary >= 25000 : </td>
-<td>HRA = 25%</td>
-<td>DA = 90%</td>
-</tr>
-
-<tr>
-<td>Basic Salary >= 40000 : </td>
-<td>HRA = 30%</td>
-<td>DA = 95%</td>
-</tr>
-
-</table>
+<hr>
 
 ### Solution
 
@@ -30,12 +11,37 @@ Question:
 using namespace std;
 int main()
 {
+    int n, num, digit, rev = 0;
 
+    cout << "Enter a postive number: ";
+    cin >> num;
+    n = num;
 
+    while (num)
+    {
+        digit = num % 10;
+        rev = (rev * 10) + digit;
+        num = num / 10;
+    }
+
+    cout << "The reverse of the number is: " << rev << endl;
+
+    if (n == rev)
+    {
+        cout << "The number is a palindrome";
+    }
+    else
+    {
+        cout << "The number is not a palindrome";
+    }
+
+    return 0;
 }
 
 ```
 
+<hr>
+
 ### Output
 
-<img src='./OutPut.JPG'></img>
+<img src='./output.png'></img>
