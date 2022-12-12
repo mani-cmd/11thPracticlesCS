@@ -21,7 +21,7 @@
 <a href='./code/Fibonacci-PrimeSeries'>Fibonacci Prime Series</a>
 </li>
 <li>
-<a href='./code/Insert-Delete-Elements-in-An-Array'>Insert/Delete elements in an array</a>
+<!-- <a href='./code/Insert-Delete-Elements-in-An-Array'>Insert/Delete elements in an array</a>
 </li>
 <li>
 <a href='./code/Boundary-element-of-a-matrix'>Boundary element of a matrix</a>
@@ -34,7 +34,7 @@
 </li>
 <li>
 <a href='./code/Student-Details'>Student Details</a>
-</li>
+</li> -->
 </ol>
 
 I have added all the typed solutions here. There are no error in these files. All Programs are tested and verified.
