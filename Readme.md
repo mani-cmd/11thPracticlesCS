@@ -19,24 +19,7 @@
 </li>
 <li>
 <a href='./code/Fibonacci-PrimeSeries'>Fibonacci Prime Series</a>
-</li>
-<li>
-<!-- <a href='./code/Insert-Delete-Elements-in-An-Array'>Insert/Delete elements in an array</a>
-</li>
-<li>
-<a href='./code/Boundary-element-of-a-matrix'>Boundary element of a matrix</a>
-</li>
-<li>
-<a href='./code/ABC-Publishers'>ABC Publishers</a>
-</li>
-<li>
-<a href='./code/Employee-Details'>Employee Details using class</a>
-</li>
-<li>
-<a href='./code/Student-Details'>Student Details</a>
-</li> -->
-</ol>
 
-I have added all the typed solutions here. There are no error in these files. All Programs are tested and verified.
+I have added all the typed solutions here. There are no errors in these files. All Programs are tested and verified.
 
-By <a href='https://instagram.com/copyninja_03'> CopyNinja_03 </a>
+By <a href='https://instagram.com/ryomiura_1'> Ryo </a>
